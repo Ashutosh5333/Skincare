@@ -4,7 +4,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <div className="relative border-2  border-red-600 flex h-full w-full  flex-col  bg-[#FFFFFF] bg-clip-border p-4 shadow-xl">
+      <div className="relative top-0 border-2  border-red-600 flex min-h-screen w-full  flex-col  bg-[#FFFFFF] bg-clip-border p-2 ">
 
         <div className="flex items-center gap-4 p-2 mb-2">
           

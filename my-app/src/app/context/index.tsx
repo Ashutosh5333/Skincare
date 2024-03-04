@@ -86,3 +86,27 @@ export const TABLE_ROWS = [
     Status:"Complete"
   },
 ];
+
+
+export const INVOICE_HEAD = ["item", "Rate", "Qty", "Amount"];
+
+export const INVOICE_ROWS = [
+  {
+    name: "Vitamin A Night Serum",
+    Rate: "$90",
+    qty: "2",
+    Total:"$180",
+  },
+  {
+    name: "Vitamin A Night Serum",
+    Rate: "$90",
+    qty: "2",
+    Total:"$180",
+  },
+  {
+    name: "Vitamin A Night Serum",
+    Rate: "$90",
+    qty: "2",
+    Total:"$180",
+  },
+];

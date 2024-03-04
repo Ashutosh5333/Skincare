@@ -5,11 +5,11 @@ import DashboardCard from './DashboardCard'
 const Dashboard = () => {
 
   return (
-    <div className='flex flex-col lg:flex-row '>
-    <div className='w-[20%] hidden p-2 px-4 lg:block m-auto '>
+    <div className='w-[100%] flex flex-col lg:flex-row '>
+    <div className='w-[16%]  hidden px-2 lg:block  '>
       <Sidebar />
     </div>
-    <div className='border-2  p-4 px-4 border-red-600 w-[100%] lg:w-[80%] m-auto bg-[#FFF9F1]'>
+    <div className='py-6 px-4 border-red-600 w-[100%] lg:w-[84%] m-auto bg-[#FFF9F1]'>
        <DashboardCard/>
     </div>
   </div>

@@ -6,10 +6,8 @@ export default function Home() {
 
 
   return (
-  <main className="relative top-16  border-black">
+  <main className="relative top-16 bg-[#FFFFFF] shadow-xl border-black">
     <Dashboard/>
-  
-
   </main>
   );
 }
