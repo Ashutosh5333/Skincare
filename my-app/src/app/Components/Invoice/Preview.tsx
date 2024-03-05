@@ -7,7 +7,7 @@ import PreviewList from "./PreviewList";
 const Preview = () => {
   return (
     <>
-      <div className="rounded-lg  bg-[#FFFFFF]  shadow-xl px-2 py-10    border-yellow-500">
+      <div className="rounded-lg  bg-[#FFFFFF]  shadow-xl px-2 sm:px-8 lg:px-2 py-10    border-yellow-500">
         
         <div className="flex pb-6 justify-between">
           <div className="flex items-center">
@@ -90,7 +90,7 @@ const Preview = () => {
         </div>
 
         <div className=" py-4 mt-5 flex items-center ">
-          <button className="bg-black px-8 rounded-full text-base 
+          <button className="hidden lg:block bg-black px-8 rounded-full text-base 
           text-[#ffffff] py-4 text-center font-normal m-auto">
             {" "}
             Create New Invoice{" "}
