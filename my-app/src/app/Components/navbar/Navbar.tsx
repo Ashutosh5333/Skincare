@@ -1,11 +1,11 @@
-"use client";
+
 import React, { useState } from "react";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import Image from "next/image";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  
 
   return (
     <>
@@ -13,7 +13,7 @@ const Navbar = () => {
         <nav className="w-full m-auto px-4 py-1   flex justify-between items-center">
           <div className="lg:hidden">
             <button className="text-xl rounded-xl">
-              <GiHamburgerMenu className="bg-[#F8F8F8] p-2 text-[#4C4D4F] text-4xl" />
+              <GiHamburgerMenu className="bg-[#F8F8F8] rounded-lg p-2 text-[#4C4D4F] text-4xl" />
             </button>
           </div>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
             </h2>
 
             <h2 className="ml-4 m-auto rounded-xl">
-              <IoIosNotificationsOutline className="bg-[#F8F8F8] p-2 text-[#4C4D4F] text-4xl" />
+              <IoIosNotificationsOutline className="bg-[#F8F8F8] rounded-lg p-2 text-[#4C4D4F] text-4xl" />
             </h2>
           </div>
         </nav>
