@@ -7,11 +7,11 @@ import PreviewList from "./PreviewList";
 const Preview = () => {
   return (
     <>
-      <div className="rounded-lg  bg-[#FFFFFF]  shadow-xl px-2 sm:px-8 lg:px-2 py-10    border-yellow-500">
+      <div className="rounded-lg  bg-[#FFFFFF] mt-2 shadow-xl px-2 sm:px-8 lg:px-2 py-6    border-yellow-500">
         
         <div className="flex pb-6 justify-between">
           <div className="flex items-center">
-            <div className="p-1 px-2 font-semibold rounded-lg flex items-center">
+            <div className="p-1 px-2  rounded-lg flex items-center">
               Preview Invoice
             </div>
           </div>
@@ -38,8 +38,8 @@ const Preview = () => {
           </div>
 
           <div className="px-2 pt-4 flex justify-between ">
-            <p className="font-semibold text-[.9rem]"> Dr. Vihang </p>
-            <p className="font-semibold pr-20 text-[.9rem]"> Jane Doe </p>
+            <p className=" text-[.9rem]"> Dr. Vihang </p>
+            <p className=" pr-20 text-[.9rem]"> Jane Doe </p>
             <p> </p>
           </div>
 
@@ -54,14 +54,14 @@ const Preview = () => {
 
             <div className="grid  grid-cols-2 gap-4">
               <div className=" text-[.8rem]">
-                <p className="text-end py-1 font-semibold">Subtotal:</p>
-                <p className="text-end font-semibold text-[#777777] py-1">Tax (5%):</p>
-                <p className="text-end font-semibold text-[#777777] py-1">Discount (10%):</p>
+                <p className="text-end py-1 ">Subtotal:</p>
+                <p className="text-end  text-[#777777] py-1">Tax (5%):</p>
+                <p className="text-end  text-[#777777] py-1">Discount (10%):</p>
               </div>
               <div className="text-[.8rem] text-end">
-                <p className="py-1 font-semibold">$540.00</p>
-                <p className="py-1 font-semibold text-[#777777]">$00.00</p>
-                <p className="py-1 font-semibold text-[#777777]">$00.00</p>
+                <p className="py-1 ">$540.00</p>
+                <p className="py-1  text-[#777777]">$00.00</p>
+                <p className="py-1  text-[#777777]">$00.00</p>
               </div>
             </div>
           </div>
@@ -72,16 +72,16 @@ const Preview = () => {
             <div></div>
             <div className="grid  grid-cols-2 gap-10">
               <div className="text-start text-[.8rem]">
-                <p className="py-1 font-semibold">total</p>
+                <p className="py-1 ">total</p>
               </div>
               <div className="text-[.8rem] text-end">
-                <p className="py-1 font-semibold">$540.00</p>
+                <p className="py-1 ">$540.00</p>
               </div>
             </div>
           </div>
 
           <div className="px-4 py-4 mb-5 bg-[#F8F8F8]">
-            <h2 className="text-[.9rem] font-semibold"> Notes/Terms </h2>
+            <h2 className="text-[.9rem] "> Notes/Terms </h2>
             <p className="text-[.7rem] text-[#777777]">
               {" "}
               Lorem ipsum dolor sit amet. Sit eaque assumenda qui.{" "}

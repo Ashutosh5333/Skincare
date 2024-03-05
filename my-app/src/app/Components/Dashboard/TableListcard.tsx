@@ -8,18 +8,21 @@ const TableListdiv = () => {
 
   return (
     <>
-      <div className="border-2 rounded-lg mt-10  py-2 overflow-x-auto">
+      <div className="lg:border-2 cursor-pointer rounded-lg mt-10  py-2 overflow-x-auto">
         <table className="table-auto w-full  ">
           <thead>
             <tr >
               {TABLE_HEAD.map((header, index) => (
-                <th key={index} className="px-4 border-seprate text-[#4C4D4F] text-[.6rem] sm:text-[.7rem] text-start py-2">{header}</th>
+                <th key={index} className="px-4 rounded-t-lg 
+                 bg-[#FFFFFF] border-seprate text-[#4C4D4F]
+                  text-[.6rem] sm:text-[.7rem] text-start py-4">{header}</th>
               ))}
             </tr>
           </thead>
           <tbody className="  text-left text-sm  text-[#4C4D4F] w-[90%] m-auto">
             {TABLE_ROWS.map((row, rowIndex) => (
-              <tr key={rowIndex} className="border-b-2 text-[.45rem] sm:text-[.7rem] bg-[#F8F8F8] px-8 py-8 " >
+              <tr key={rowIndex} className={`  border-b-2 text-[.45rem] sm:text-[.7rem] hover:bg-[#ffffff]
+               lg:bg-[#F8F8F8] px-8 py-8 `} >
                 <td className=" px-4 py-6">{row.name}</td>
                 <td className=" px-4 py-2">{row.Time}</td>
                 <td className=" px-4 py-2">{row.date}</td>
@@ -37,7 +40,11 @@ const TableListdiv = () => {
             ))}
           </tbody>
         </table>
+        <button className="flex m-auto text-[#4C4D4F] underline items-center justify-center">
+              View more
+        </button>
       </div>
+       
     </>
   );
 };

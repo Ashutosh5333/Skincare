@@ -5,7 +5,7 @@ import TableListcard from "./TableListcard";
 
 const DashboardList = () => {
   return (
-    <div className="rounded-lg bg-[#FFFFFF] shadow-xl  py-2  border-yellow-500 ">
+    <div className="rounded-lg lg:bg-[#FFFFFF] lg:shadow-xl  py-2  border-yellow-500 ">
       <div className=" px-2 lg:px-4 py-2 flex justify-between">
         <div className="flex items-center">
           <div className="bg-[#F8F8F8] p-2 px-4 rounded-lg flex items-center">
@@ -34,6 +34,7 @@ const DashboardList = () => {
 
       <div className="lg:px-4">
         <TableListcard />
+       
       </div>
     </div>
   );
