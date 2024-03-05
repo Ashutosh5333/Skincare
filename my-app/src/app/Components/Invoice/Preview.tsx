@@ -8,9 +8,9 @@ const Preview = () => {
   return (
     <>
       <div className="rounded-lg  bg-[#FFFFFF] 
-      shadow-xl px-2 sm:px-8 lg:px-2 py-14 ">
+      shadow-xl px-2 sm:px-8 lg:px-2 py-4 ">
         
-        <div className="flex mt-[-1rem] pb-6 justify-between">
+        <div className="flex  pb-6 justify-between">
           <div className="flex items-center">
             <div className="p-1 px-2  rounded-lg flex items-center">
               Preview Invoice
@@ -90,7 +90,7 @@ const Preview = () => {
           </div>
         </div>
 
-        <div className=" py-4 mt-5 flex items-center ">
+        <div className=" py-4 lg:pb-24 mt-5 flex items-center ">
           <button className="hidden lg:block bg-black px-8 rounded-full text-base 
           text-[#ffffff] py-4 text-center font-normal m-auto">
             {" "}
