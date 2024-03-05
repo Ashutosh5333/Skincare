@@ -7,9 +7,10 @@ import PreviewList from "./PreviewList";
 const Preview = () => {
   return (
     <>
-      <div className="rounded-lg  bg-[#FFFFFF] mt-2 shadow-xl px-2 sm:px-8 lg:px-2 py-6    border-yellow-500">
+      <div className="rounded-lg  bg-[#FFFFFF] 
+      shadow-xl px-2 sm:px-8 lg:px-2 py-14 ">
         
-        <div className="flex pb-6 justify-between">
+        <div className="flex mt-[-1rem] pb-6 justify-between">
           <div className="flex items-center">
             <div className="p-1 px-2  rounded-lg flex items-center">
               Preview Invoice

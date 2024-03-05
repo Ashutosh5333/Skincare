@@ -18,7 +18,7 @@ const DashboardCard = () => {
 
         {/* -----------------  invoice ----------- */}
 
-        <div className="Invoiceprint  w-[100%]   lg:w-[30%]  border-yellow-700">
+        <div className="Invoiceprint mt-2 w-[100%]   lg:w-[30%]  border-yellow-700">
           <Preview />
         </div>
       </div>
