@@ -8,7 +8,7 @@ const Preview = () => {
   return (
     <>
       <div className="rounded-lg  bg-[#FFFFFF] 
-      shadow-xl px-2 sm:px-8 lg:px-2 py-4 ">
+      shadow-xl px-2 sm:px-8 lg:px-2 sml:px-1 xl:px-2 py-4 ">
         
         <div className="flex  pb-6 justify-between">
           <div className="flex items-center">
@@ -23,7 +23,7 @@ const Preview = () => {
           </div>
         </div>
 
-        <div className="border-2 px-2 pt-4 border-gray-300 rounded-xl">
+        <div className="border-2 px-2 sml:px-1 xl:px-2 pt-4 border-gray-300 rounded-xl">
           <div className="py-4 px-2">
             <Image
               src={"/assets/Skinclub.svg"}
@@ -81,16 +81,16 @@ const Preview = () => {
             </div>
           </div>
 
-          <div className="px-4 py-4 mb-5 bg-[#F8F8F8]">
+          <div className="px-4 py-3 mb-5 bg-[#F8F8F8]">
             <h2 className="text-[.9rem] "> Notes/Terms </h2>
-            <p className="text-[.7rem] text-[#777777]">
+            <p className="text-[.6rem] lg:text-[.7rem] text-[#777777]">
               {" "}
               Lorem ipsum dolor sit amet. Sit eaque assumenda qui.{" "}
             </p>
           </div>
         </div>
 
-        <div className=" py-4 lg:pb-24 mt-5 flex items-center ">
+        <div className=" py-4 sml:pb-10 xl:pb-28 mt-5 flex items-center ">
           <button className="hidden lg:block bg-black px-8 rounded-full text-base 
           text-[#ffffff] py-4 text-center font-normal m-auto">
             {" "}

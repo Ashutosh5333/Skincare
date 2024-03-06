@@ -12,18 +12,18 @@ const DashboardList = () => {
             <input
               type="text"
               placeholder="Search by patient name"
-              className="placeholder-gray-500 lg:pr-20 text-[.6rem] bg-transparent outline-none flex-1"
+              className="placeholder-gray-500  sm:pr-32 lg:pr-20 text-[.5rem] sm:text-[.65rem] bg-transparent outline-none flex-1"
             />
             <div className="h-5 w-[.1rem] bg-gray-400 mx-2"></div>
             <CiSearch />
           </div>
         </div>
         <div className="flex  items-center">
-          <button className="bg-[#F8F8F8] text-[#4C4D4F] text-[.6rem] px-2 lg:px-4 py-2 rounded-lg mr-2">
+          <button className="bg-[#F8F8F8] text-[#4C4D4F] text-[.5rem] sm:text-[.65rem] px-2 lg:px-4 py-2 rounded-lg mr-2">
             Select Date
           </button>
 
-          <div className="flex flex-row gap-2 text-[#4C4D4F] text-[.6rem] bg-[#F8F8F8] p-2 rounded-lg mr-2">
+          <div className="flex flex-row gap-2 text-[#4C4D4F] text-[.5rem] sm:text-[.65rem] bg-[#F8F8F8] p-2 rounded-lg mr-2">
             <p>20 Aug </p>
             <IoIosArrowDown className="m-auto" />
           </div>
@@ -34,7 +34,6 @@ const DashboardList = () => {
 
       <div className="lg:px-4">
         <TableListcard />
-       
       </div>
     </div>
   );

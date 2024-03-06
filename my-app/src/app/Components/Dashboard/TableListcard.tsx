@@ -40,7 +40,7 @@ const TableListdiv = () => {
             ))}
           </tbody>
         </table>
-        <button className="flex m-auto text-[#4C4D4F] underline items-center justify-center">
+        <button className="flex m-auto py-1 text-[#4C4D4F] underline items-center justify-center">
               View more
         </button>
       </div>
